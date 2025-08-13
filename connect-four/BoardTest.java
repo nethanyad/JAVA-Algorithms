@@ -1,15 +1,19 @@
+/* 
+---------------------------------------------------------
+Project:    connect-four
+Author:     Nethanya Dhaiphule
+Language:   Java
+Description:
+       Given the Connect Four game logic in Board.java, this program
+       uses JUnit 5 to test its functions, verifying correct gameplay
+       mechanics, win detection, and valid move handling.
+---------------------------------------------------------
+*/
 import org.junit.jupiter.api.Test;
 import java.util.Arrays;
 import org.junit.jupiter.api.Assertions;
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * CPSC 233 W24 Assignment 1 BoardTest Starter File
- * Holds a helper deep copy and example tests of deep copy
- * @author Jonathan Hudson
- * @email jwhudson@ucalgary.ca
- * @version 1.0
- */
 public class BoardTest {
 
     /**
@@ -69,13 +73,6 @@ public class BoardTest {
         assertTrue(!Arrays.deepEquals(expected, actual));
     }
 
-
-/**
- * CPSC 233 W24 Board.java
- * @author Nethanya Dhaiphule
- * @tutorial T12
- * @date February 2, 2024
- */
 
     //createBoard()
      @Test
@@ -779,6 +776,7 @@ public class BoardTest {
         assertArrayEquals(new int[]{-1, -1}, Board.hint(board, 2, 4));
     }
 }
+
 
 
 
