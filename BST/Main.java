@@ -1,15 +1,15 @@
-// ====================================================================
-// CPSC 319, W25, PA-3: Binary Search trees (BST)
-//
-// Student Information:
-//
-// ** Full Name: Nethanya Dhaiphule
-//
-// ** UCID: 30183841
-//
-// ** Tutorial Section: T03
-//
-// ====================================================================
+/*
+---------------------------------------------------------
+Project:    Binary Search Tree Word Frequency Counter
+Author:     Nethanya Dhaiphule
+Language:   Java
+Description:
+    Implements a binary search tree (BST) to store unique words
+    from an input text file and track their frequencies. Each node
+    contains a word and its occurrence count
+---------------------------------------------------------
+*/
+
 
 import java.io.*; // Import for file handling
 import java.util.*; // Import for utility classes like Scanner
@@ -376,3 +376,4 @@ public class Main {
     }
 
 }
+
