@@ -20,5 +20,16 @@ It supports **loading graph data from a text file** and allows users to **intera
 ---
 
 ## Input File Format
-Each line should represent a directed edge:
+- Input file must be a **plain text** (`.txt`) file.
+- Words should be separated by spaces, tabs, or punctuation.
+- Example (`sample.txt`):
+- Each line should represent a directed edge:
+  A B 5
+  A C 2
+  B D 4
+  C D 1
+
+
+---
+
 
