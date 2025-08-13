@@ -1,9 +1,12 @@
-/**
- * CPSC 233 W24 Assignment 1 Starter to use to make Board.java
- * @author Jonathan Hudson
- * @email jwhudson@ucalgary.ca
- * @version 1.0
- */
+/* 
+---------------------------------------------------------
+Project:    connect-four
+Author:     Nethanya Dhaiphule
+Language:   Java
+Description:
+       This program plays a modified version of Connect Four.
+---------------------------------------------------------
+*/
 public class Board{
 
     /**
@@ -18,18 +21,7 @@ public class Board{
      * Connect-L Blue Piece
      */
     public static final int BLU = Game.BLU;
-
-
-
-
-    //Students should enter their functions below here
-
-    /**
-     * CPSC 233 W24 Board.java
-     * @author Nethanya Dhaiphule
-     * @tutorial T12
-     * @date February 2, 2024
-     * /
+ 
 
     /**
      * This method creates and return a 2D integer array for the board of the game
@@ -42,7 +34,6 @@ public class Board{
         int[][] board = new int[rows][columns];
         return board;
         }
-
 
 
     /**
@@ -490,6 +481,7 @@ public class Board{
         return full(board) || won(board, RED, length) || won(board, BLU, length);
     }
 }
+
 
 
 
