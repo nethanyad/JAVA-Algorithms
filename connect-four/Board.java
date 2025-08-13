@@ -1,10 +1,12 @@
-/* 
+/*
 ---------------------------------------------------------
-Project:    connect-four
+Project:    Connect Four (Modified)
 Author:     Nethanya Dhaiphule
 Language:   Java
 Description:
-       This program plays a modified version of Connect Four.
+    Procedural implementation of a Connect Four–style game.
+    Includes gravity-assisted piece placement, win condition
+    detection, and unit tests using JUnit 5.
 ---------------------------------------------------------
 */
 public class Board{
@@ -481,6 +483,7 @@ public class Board{
         return full(board) || won(board, RED, length) || won(board, BLU, length);
     }
 }
+
 
 
 
